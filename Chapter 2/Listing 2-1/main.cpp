@@ -31,16 +31,16 @@ BLYNK_WRITE(V1)
     printf("Got a value %s\n", param[0].asStr());
 
 	if(param.asInt() == 1)
-		digitalWrite(18, HIGH);
+		digitalWrite(1, HIGH);
 	else
-		digitalWrite(18, LOW);
+		digitalWrite(1, LOW);
 
 }
 
 void setup()
 {
      Blynk.begin(auth, serv, port);
-     pinMode(18, OUTPUT);
+     pinMode(1, OUTPUT);
 }
 
 void loop()
