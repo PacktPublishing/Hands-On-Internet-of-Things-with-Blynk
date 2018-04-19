@@ -1,6 +1,7 @@
 /**
  * @file       main.cpp
  * @author     VolodymyrShymanskyy
+ * @modified by	Pradeeka Seneviratne
  * @license    This project is released under the MIT License (MIT)
  * @copyright  Copyright (c) 2015 VolodymyrShymanskyy
  * @date       Mar 2015
